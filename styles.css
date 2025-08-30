@@ -1,0 +1,130 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4; /* light grey */
+  color: #333;
+}
+
+header {
+  background-color: #FFD700; /* golden yellow */
+  color: #333;
+  text-align: center;
+  padding: 1.5rem 0;
+  border-bottom: 4px solid #555;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.8rem;
+}
+
+header p {
+  font-size: 1.3rem;
+}
+
+/* Verse of the Day */
+.verse-day {
+  max-width: 900px;
+  margin: 2rem auto;
+  background: #fff3b0; /* soft yellow highlight */
+  border-left: 6px solid #FFD700;
+  border-radius: 10px;
+  padding: 1.2rem;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.verse-day h2 {
+  margin-bottom: 0.8rem;
+  color: #333;
+}
+
+.verse-day p {
+  font-size: 1.1rem;
+  font-style: italic;
+  color: #444;
+  line-height: 1.6;
+}
+
+.verse-day span {
+  display: block;
+  margin-top: 0.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+main {
+  padding: 2rem;
+}
+
+.intro, .faith, .greatness, .love, .salvation {
+  max-width: 900px;
+  margin: 2rem auto;
+  text-align: center;
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.intro h2, .faith h2, .greatness h2, .love h2, .salvation h2 {
+  color: #FFD700;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.intro p, .faith p, .greatness p, .love p, .salvation p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+blockquote {
+  margin-top: 1.5rem;
+  font-style: italic;
+  color: #555;
+  background: #f9f9f9;
+  border-left: 5px solid #FFD700;
+  padding: 0.8rem 1rem;
+  border-radius: 6px;
+}
+
+blockquote span {
+  display: block;
+  margin-top: 0.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+ .image-section {
+    text-align: center;
+    margin: 3rem 0;
+  }
+
+ .image-section img {
+  width: 300px;        /* fixed width */
+  height: 200px;       /* fixed height */
+  object-fit: cover;   /* crops without stretching */
+  border-radius: 12px;
+  border: 4px solid #FFD700;
+  margin: 0 10px;      /* space between images */
+}
+
+  
+ @media (max-width: 768px) {
+  .image-section img {
+    width: 90%;       /* fill most of small screens */
+    height: auto;     /* let height adjust naturally */
+    object-fit: cover;
+    margin: 1rem auto;
+  }
+}
+
+
+footer {
+  background-color: #333; /* dark grey */
+  color: #FFD700;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
